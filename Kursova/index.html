@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог фільмів</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <meta name="description" content="Каталог фільмів з детальною інформацією та фільтрацією">
+    <meta name="keywords" content="фільми, каталог, пошук, фільтрація, рейтинг">
+</head>
+<body>
+    <!-- Шапка --> 
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Лого" class="logo">
+        </div>
+        <h1>Каталог фільмів</h1>
+        <nav>
+            <a href="#">Головна</a>
+            <a href="#movies-list">Каталог фільмів</a>
+            <a href="#about">Про нас</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+    </header>
+    
+
+    <!-- Панель фільтрів та сортування з полем пошуку -->
+    <section id="filters">
+        <input type="text" id="search" placeholder="Пошук за назвою..." oninput="filterMovies()">
+        <select id="genre-filter" onchange="filterMovies()"></select>
+        <select id="director-filter" onchange="filterMovies()"></select>
+        <input type="number" id="year-from" placeholder="Рік від" onchange="filterMovies()">
+        <input type="number" id="year-to" placeholder="Рік до" onchange="filterMovies()">
+        <select id="language-filter" onchange="filterMovies()"></select>
+        <select id="sort-options" onchange="sortMovies()">
+            <option value="title-asc">Назва (А-Я)</option>
+            <option value="title-desc">Назва (Я-А)</option>
+            <option value="rating-asc">Рейтинг (зростання)</option>
+            <option value="rating-desc">Рейтинг (спадання)</option>
+            <option value="year-asc">Рік (зростання)</option>
+            <option value="year-desc">Рік (спадання)</option>
+        </select>
+    </section>
+    
+    <!-- Секція з картками фільмівю. До файлу movies.json було додано новий рядок, а саме "poster", що дає змогу додати постери фільмів до карток-->
+    <section id="movies-list"></section>
+
+    <!-- Вікно з детальною інформацією -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Секція "Контакти" -->
+        <section id="contact">
+        <h2>Контакти</h2>
+        <p>Email: info@moviescatalog.com</p>
+        </section>
+
+        <p>&copy; 2024 Каталог фільмів. Всі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

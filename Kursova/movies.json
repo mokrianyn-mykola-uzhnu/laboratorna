@@ -1,0 +1,113 @@
+[
+    {
+      "movieId": 1101,
+      "title": "Тіні забутих предків",
+      "poster": "movie posters/tini.jpg",
+      "director": "Сергій Параджанов",
+      "genre": "Драма",
+      "releaseYear": 1965,
+      "language": "Українська",
+      "rating": 8.2,
+      "description": "Екранізація однойменної повісті Михайла Коцюбинського про трагічну любов в Карпатах."
+    },
+    {
+      "movieId": 1102,
+      "title": "Захар Беркут",
+      "poster": "movie posters/berkyt.jpg",
+      "director": "Ахтем Сеітаблаєв",
+      "genre": "Історичний",
+      "releaseYear": 2019,
+      "language": "Українська",
+      "rating": 7.0,
+      "description": "Історична драма про боротьбу українського народу проти монгольського іга."
+    },
+    {
+      "movieId": 1103,
+      "title": "Кіборги",
+      "poster": "movie posters/kiborhu.jpg",
+      "director": "Ахтем Сеітаблаєв",
+      "genre": "Військовий",
+      "releaseYear": 2017,
+      "language": "Українська",
+      "rating": 8.1,
+      "description": "Фільм про українських солдатів, які обороняли Донецький аеропорт."
+    },
+    {
+      "movieId": 1104,
+      "title": "Поводир",
+      "poster": "movie posters/povodur.jpg",
+      "director": "Олесь Санін",
+      "genre": "Драма",
+      "releaseYear": 2014,
+      "language": "Українська",
+      "rating": 7.6,
+      "description": "Історія американського хлопчика та українського сліпого музиканта під час Голодомору."
+    },
+    {
+      "movieId": 1105,
+      "title": "Мої думки тихі",
+      "poster": "movie posters/dymku.jpeg",
+      "director": "Антоніо Лукіч",
+      "genre": "Комедія",
+      "releaseYear": 2019,
+      "language": "Українська",
+      "rating": 7.9,
+      "description": "Комедійна історія про звукорежисера, який шукає рідкісних тварин в Карпатах."
+    },
+    {
+      "movieId": 1106,
+      "title": "Додому",
+      "poster": "movie posters/dodomy.jpg",
+      "director": "Наріман Алієв",
+      "genre": "Драма",
+      "releaseYear": 2019,
+      "language": "Українська",
+      "rating": 7.4,
+      "description": "Історія кримськотатарського батька, який втратив сина на війні."
+    },
+    {
+      "movieId": 1107,
+      "title": "Віддана",
+      "poster": "movie posters/viddana.jpg",
+      "director": "Христина Сиволап",
+      "genre": "Мелодрама",
+      "releaseYear": 2020,
+      "language": "Українська",
+      "rating": 6.8,
+      "description": "Екранізація роману Софії Андрухович «Фелікс Австрія» про складні стосунки двох жінок."
+    },
+    {
+      "movieId": 1108,
+      "title": "Крути 1918",
+      "poster": "movie posters/krytu.jpg",
+      "director": "Олексій Шапарєв",
+      "genre": "Історичний",
+      "releaseYear": 2019,
+      "language": "Українська",
+      "rating": 6.2,
+      "description": "Фільм про героїчний бій студентів під Крутами проти більшовицьких військ."
+    },
+    {
+      "movieId": 1109,
+      "title": "Скажене весілля",
+      "poster": "movie posters/vesilya.jpg",
+      "director": "Влад Дикий",
+      "genre": "Комедія",
+      "releaseYear": 2018,
+      "language": "Українська",
+      "rating": 6.5,
+      "description": "Комедія про батька, який намагається зірвати весілля доньки з іноземцем."
+    },
+    {
+      "movieId": 1110,
+      "title": "Толока",
+      "poster": "movie posters/toloka.jpg",
+      "director": "Михайло Іллєнко",
+      "genre": "Драма",
+      "releaseYear": 2020,
+      "language": "Українська",
+      "rating": 7.0,
+      "description": "Фільм за мотивами поезії Тараса Шевченка «У тієї Катерини хата на помості»."
+    }
+  ]
+  
